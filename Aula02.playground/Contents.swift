@@ -137,3 +137,29 @@ shoppingList.contains("Banana")
 shoppingList.firstIndex(of: "Banana")
 
 shoppingList.sort()
+
+//Dicionário
+
+var states: [String: String] = [
+    "SP": "São Paulo",
+    "MG": "Minas Gerais",
+    "BA": "Bahia",
+    "PA": "Pará",
+    "RJ": "Rio de Janeiro",
+]
+
+states["SP"] = "Seu Puto"
+
+states ["PE"] = "Pernambuco"
+
+for (sigla, nome) in states {
+    print(sigla)
+    print(nome)
+}
+
+if let sp = states ["SP"]{
+    print(sp)
+    
+}
+
+
